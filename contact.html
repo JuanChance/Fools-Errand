@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">	
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/hover.css" rel="stylesheet" media="all">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/emblema-one:n4:default;double-pica:n4:default;allan:n7:default;noticia-text:n7:default;merienda-one:n4:default;atomic-age:n4:default;jim-nightshade:n4:default;almendra-sc:n4:default;wallpoet:n4:default;vt323:n4:default;iceland:n4:default;iceberg:n4:default;black-ops-one:n4:default;rationale:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+	<a class="navbar-brand" href="index.html"><img src="css/images/PFP_lineart.png" alt="head image"/></a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	      <ul class="navbar-nav mr-auto">
+	        <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+	        <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+	        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> My Work </a>
+	          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+					<a class="dropdown-item" href="illustrator.html">Illustrator</a>
+					<a class="dropdown-item" href="photography.html">Photography</a>
+					<a class="dropdown-item" href="voxels.html">Voxels</a>
+					<a class="dropdown-item" href="indesign.html">Drawings</a>
+			  </div>
+            </li>
+	        <li class="nav-item active"> <a class="nav-link" href="contact.html">Contact me <span class="sr-only">(current)</span></a> </li>
+          </ul>
+  </div>
+</nav>
+	
+<header>
+  <h1 id="top">The Fool's Errands</h1>
+	<h4>Vince Palban's Portfolio Website</h4>
+	</header>
+	
+	<div id="formheading">
+	<h2 class="head">Contact me</h2>
+	<p>The following form is the ideal way to conact me for any and all professional matters</p>
+	</div>
+	
+<form>
+  <fieldset><legend></legend>
+	  
+	 <div>
+		 <label for="name">Name/Company Name:</label>
+	<input name="name" type="text" required="required" id="name" placeholder="Type Name Here"><br>
+	  
+  <label for="email">Your email:</label>
+	<input name="email" type="email" required="required" id="email" placeholder="example@email.com">
+	<br><br>
+	<p>
+	<label for="Reasonforcontact">Reason for contact</label><br>
+	  <label>
+	    <input type="radio" name="Reason for contact" value="professional" id="Reasonforcontact_0">
+	    Professional Project</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="Reason for contact" value="personal" id="Reasonforcontact_1">
+	    Personal project</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="Reason for contact" value="query" id="Reasonforcontact_2">
+	    Query</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="Reason for contact" value="other" id="Reasonforcontact_3">
+	    Other</label>
+	  <br>
+	<label for="specify">If other, please specify: </label><input name="specify" type="text" id="specify" placeholder="Specify...">
+  </p>
+	</div>
+	</fieldset>
+	
+	<fieldset><legend>For me</legend>
+		<h6>How did you find out about me/this website?</h6>
+	<div>
+	  <p>
+		  <label>
+		    <input type="checkbox" name="how did you find me" value="tudublin" id="howdidyoufindme_0">
+		    TUDublin connections</label>
+		  <br>
+		  <label>
+		    <input type="checkbox" name="how did you find me" value="personal" id="howdidyoufindme_1">
+		    Personal connection</label>
+		  <br>
+		  <label>
+		    <input type="checkbox" name="how did you find me" value="socialmedia" id="howdidyoufindme_2">
+		    Social Media</label>
+		  <br>
+		  <label>
+		    <input type="checkbox" name="how did you find me" value="art" id="howdidyoufindme_3">
+		    Saw your art</label>
+		  <br>
+		  <label>
+		    <input type="checkbox" name="how did you find me" value="miscother" id="howdidyoufindme_4">
+		    Misc./Other</label>
+		  <br>
+		  <label for="miscspecify">If other, please specify: </label><input name="miscspecify" type="text" id="miscspecify" placeholder="Specify...">
+	  </p>
+	</div>
+    </fieldset>
+	
+  <fieldset><legend>Query</legend>
+	  <label for="content">Please include any and all information here</label>
+	  <br>
+	  <textarea name="content" id="content" placeholder="Query, request, etc... (Don't be shy)"></textarea>
+	  <br>
+    <label for="files">Include any supporting material here &lpar;Project Brief&sol;Moodboard&sol;Inspiration&sol;etc.&rpar;</label>
+	  <br>
+	  <input class="hvr-hang" name="files" type="file" id="files">
+	</fieldset>
+	<br>
+	<input class="hvr-backward" type="submit"><input class="hvr-forward" type="reset">
+</form>
+	
+<footer>
+	<div class="icons">
+		<a href="https://www.instagram.com/lack.xf.art/" target="new"><img src="css/images/iconinstagramdark.png" alt="instagram icon"/></a>
+		<a href="https://twitter.com/notweets_leave" target="new"><img src="css/images/icontwitterdark.png" alt="twitter icon"/></a>
+	</div>
+	<h6>Fool's Errand</h6>
+	<div class="btop">
+		<a href="#top">&#8613;</a>
+	</div>
+	</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
