@@ -129,7 +129,7 @@ main div h2 {
     font-size: 2em;
 }
 .disclinks, .disclinks:hover {
-    text-decoration-color: none;
+    text-decoration-color: transparent;
     color: inherit;
 }
 aside img {
